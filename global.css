@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+}
+
+main {
+  margin: auto;
+  max-width: 800px;
+}
+
+main > p {
+  color: #888;
+  font-style: italic;
+}
+
+ol {
+  margin: 50px 0;
+  padding: 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00000022;
+  list-style: none;
+}
+
+li {
+  padding: 30px;
+}
+
+li:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+
+.title {
+  margin-right: 0.25em;
+  color: #1c44b1;
+  font-size: 2em;
+}
+
+time {
+  color: #666;
+}
+
+.topic {
+  display: inline-block;
+  margin-top: 1em;
+  margin-right: 0.5em;
+  padding: 0 0.5em;
+  border-radius: 3em;
+  box-shadow: 0 0 3px #00000066;
+}
+
+.right {
+  text-align: right;
+}
+
+.github {
+  color: #1c44b1;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
