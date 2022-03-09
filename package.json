@@ -1,7 +1,11 @@
 {
-  "name": "svelte-app",
+  "name": "github-pages-list",
   "version": "1.0.0",
-  "private": true,
+  "author": {
+    "name": "Yusuke Kido",
+    "email": "mail@yusuk.eki.do"
+  },
+  "license": "MIT",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
@@ -9,6 +13,7 @@
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
+    "@octokit/types": "^6.34.0",
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
     "@rollup/plugin-typescript": "^8.0.0",
